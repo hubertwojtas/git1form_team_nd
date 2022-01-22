@@ -48,7 +48,8 @@ input[type="submit"] {
   {
     font-size: 90%;
     color: black;
-    text-align: center;
+    text-align: center; 
+    /* margin */
   }
   #sendForm
   {
