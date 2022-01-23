@@ -100,9 +100,6 @@ input[type="password"] {
 	font-family: "fontello";
 }
 
-input:focus[type="password"] {
-  background-color: limegreen; 
-}
 
 .password-valid{
   border: 3px solid green;
