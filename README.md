@@ -14,6 +14,12 @@ Lista zadan w naszym projekcie:
 - [x] dodane ulubione miasta (checkbox)
 - [x] ulubiona muzyka (dropdown)
 
+### Jak uruchomić projekt:
+```
+cd git1form_team_nd
+open index.html in browser
+```
+
 > Fragment kodu JS:
 ```javascript
 function test() {
