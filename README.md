@@ -20,6 +20,13 @@ cd git1form_team_nd
 open index.html in browser
 ```
 
+## Technologie
+Projekt wykonano z uzyciem:
+* Font awesome 6.0.0
+* ...
+* Font from google fonts: Oswald
+
+
 > Fragment kodu JS:
 ```javascript
 function test() {
