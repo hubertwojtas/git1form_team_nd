@@ -6,14 +6,14 @@ body {
 /*Dodanie custowmowej czcionki, zmieniony znak kropki w polu input*/
 }
 @font-face {
-	font-family: 'fontello';
-	src: url('./font/fontello.eot?0000');
-	src: url('./font/fontello.eot?0000#iefix') format('embedded-opentype'),
-	     url('./font/fontello.woff2?0000') format('woff2'),
-	     url('./font/fontello.woff?0000') format('woff'),
-	     url('./font/fontello.ttf?0000') format('truetype'),
-	     url('./font/fontello.svg?0000#fontello') format('svg');
-  }
+  font-family: "fontello";
+  src: url("./font/fontello.eot?0000");
+  src: url("./font/fontello.eot?0000#iefix") format("embedded-opentype"),
+    url("./font/fontello.woff2?0000") format("woff2"),
+    url("./font/fontello.woff?0000") format("woff"),
+    url("./font/fontello.ttf?0000") format("truetype"),
+    url("./font/fontello.svg?0000#fontello") format("svg");
+}
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0;
@@ -40,14 +40,16 @@ label {
   color: green;
 }
 
-
 .button {
   border-color: #f1c40f;
-  /* color: #fff; */
   color: rgb(21, 21, 63);
   font-size: 1rem;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: -webkit-linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+  background-image: -webkit-linear-gradient(
+    45deg,
+    #f1c40f 50%,
+    transparent 50%
+  );
   background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
@@ -86,7 +88,6 @@ input[type="submit"] {
   color: rgb(46, 46, 46);
 }
 
-
 footer {
   position: fixed;
   left:0;
@@ -97,16 +98,20 @@ footer {
   background-color: rgb(91, 129, 75);
 }
 
+
 input[type="password"] {
-	font-family: "fontello";
+  font-family: "fontello";
 }
 
+input:focus[type="password"] {
+  background-color: limegreen;
+}
 
-.password-valid{
+.password-valid {
   border: 3px solid green;
 }
 
-.password-invalid{
+.password-invalid {
   border: 3px solid red;
 }
 textarea {
@@ -162,7 +167,6 @@ input[type="reset"] {
   cursor: pointer;
 }
 
-
 input[type="reset"]:hover {
   background-color: #eb7c50;
   border: 2px solid #f0652f;
@@ -174,13 +178,13 @@ body {
   padding: 35px;
   background-clip: padding-box;
   transition: transform 200ms, box-shadow 200ms;
-  box-shadow: 0 0 0 0 rgba(0, 0, 0, .2);
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2);
 }
 
 input[type="submit"]:hover,
 input[type="submit"]:focus {
   transform: scale(1.2);
-  box-shadow: 0 5px 1px 2px rgba(0, 0, 0, .2);
+  box-shadow: 0 5px 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 input[type="search"] {
