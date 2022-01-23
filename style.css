@@ -97,6 +97,44 @@ textarea {
   padding: 5px 22px;
 }
 
+
+@media only screen and (max-width: 844px) {
+  body {
+    background-color: rgb(145, 169, 175);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .description
+  {
+    display: block;
+    text-align: center;
+    padding: 3px;
+    color: rgb(0, 0, 51);
+  }
+  #field1, #field2, #field3, #field4
+  {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(177, 209, 218, 0.925);;
+    }
+  h1
+  {
+    font-size: 90%;
+    color: black;
+    text-align: center; 
+    /* margin */
+  }
+  #sendForm
+  {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    background-color: rgb(241, 241, 247);
+    color:rgb(0, 0, 51); ;
+  }
+}
+
 input[type="reset"] {
   background-color: #f0652f;
   border: none;
