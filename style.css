@@ -1,3 +1,8 @@
+/* 
+font-family: 'Cabin', sans-serif;
+font-family: 'Oswald', sans-serif; */
+body {
+  font-family: 'Oswald', sans-serif;
 /*Dodanie custowmowej czcionki, zmieniony znak kropki w polu input*/
 @font-face {
 	font-family: 'fontello';
@@ -17,8 +22,11 @@
 }
 
 h1 {
-  color: red;
+  font-family: 'Cabin', sans-serif;
+  color: black;
   font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 input {
