@@ -1,4 +1,10 @@
+/* 
+font-family: 'Cabin', sans-serif;
+font-family: 'Oswald', sans-serif; */
+body {
+  font-family: 'Oswald', sans-serif;
 /*Dodanie custowmowej czcionki, zmieniony znak kropki w polu input*/
+}
 @font-face {
 	font-family: 'fontello';
 	src: url('./font/fontello.eot?0000');
@@ -17,8 +23,11 @@
 }
 
 h1 {
-  color: red;
+  font-family: 'Cabin', sans-serif;
+  color: black;
   font-size: 2rem;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 input {
@@ -78,13 +87,20 @@ input[type="submit"] {
 }
 
 
+footer {
+  position: fixed;
+  left:0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(91, 129, 75);
+}
+
 input[type="password"] {
 	font-family: "fontello";
 }
 
-input:focus[type="password"] {
-  background-color: limegreen; 
-}
 
 .password-valid{
   border: 3px solid green;
@@ -95,6 +111,44 @@ input:focus[type="password"] {
 }
 textarea {
   padding: 5px 22px;
+}
+
+
+@media only screen and (max-width: 844px) {
+  body {
+    background-color: rgb(145, 169, 175);
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .description
+  {
+    display: block;
+    text-align: center;
+    padding: 3px;
+    color: rgb(0, 0, 51);
+  }
+  #field1, #field2, #field3, #field4
+  {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(177, 209, 218, 0.925);;
+    }
+  h1
+  {
+    font-size: 90%;
+    color: black;
+    text-align: center; 
+    /* margin */
+  }
+  #sendForm
+  {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1rem;
+    background-color: rgb(241, 241, 247);
+    color:rgb(0, 0, 51); ;
+  }
 }
 
 input[type="reset"] {
@@ -127,4 +181,12 @@ input[type="submit"]:hover,
 input[type="submit"]:focus {
   transform: scale(1.2);
   box-shadow: 0 5px 1px 2px rgba(0, 0, 0, .2);
+}
+
+input[type="search"] {
+  border: solid black 2px;
+  border-radius: 0.2rem;
+  color: black;
+  padding: 4px 8px; 
+  margin: 4px 2px;
 }
